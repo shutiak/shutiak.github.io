@@ -2,31 +2,75 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>My Portfolio</title>
-  <style>
-    body { font-family: Arial, sans-serif; max-width: 800px; margin: auto; padding: 20px; }
-    h1 { color: #2c3e50; }
-    .project { border: 1px solid #ccc; padding: 15px; margin-bottom: 15px; border-radius: 5px; }
-    .project h2 { margin-top: 0; }
-    .button { display: inline-block; padding: 8px 12px; background-color: #007bff; color: white; text-decoration: none; border-radius: 3px; }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Petro's Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
 </head>
 <body>
-  <h1>My Portfolio</h1>
+  <header>
+    <div class="container">
+      <h1>Petro's Portfolio</h1>
+      <p>QA Enthusiast & Web Developer</p>
+    </div>
+  </header>
 
-  <div class="project">
-    <h2>Kanban board</h2>
-    <p>Manage tasks visually with drag and drop.</p>
-    <a class="button" href="https://github.com/yourusername/kanban-board" target="_blank">View Project</a>
-  </div>
+  <main class="container">
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hi! I'm Petro, a facilities coordinator diving deep into QA testing and web development. Here you can explore my projects and skills.</p>
+    </section>
 
-  <div class="project">
-    <h2>Wishlist</h2>
-    <p>A WordPress plugin to manage user wishlists.</p>
-    <a class="button" href="https://github.com/yourusername/wishlist" target="_blank">View Project</a>
-  </div>
+    <section id="projects">
+      <h2>Projects</h2>
 
-  <!-- Додай сюди інші проекти -->
+      <div class="projects-grid">
+        <article class="project-card">
+          <h3>Kanban Board</h3>
+          <p>Visual task management with drag and drop interface for smooth workflow.</p>
+          <a href="https://github.com/yourusername/kanban-board" target="_blank" class="btn">View Project</a>
+        </article>
 
+        <article class="project-card">
+          <h3>Wishlist</h3>
+          <p>WordPress plugin for managing personalized user wishlists effectively.</p>
+          <a href="https://github.com/yourusername/wishlist" target="_blank" class="btn">View Project</a>
+        </article>
+
+        <article class="project-card">
+          <h3>Gambling Simulator</h3>
+          <p>Simulates gambling scenarios to analyze odds and outcomes for testing purposes.</p>
+          <a href="https://github.com/yourusername/gambling-simulator" target="_blank" class="btn">View Project</a>
+        </article>
+
+        <article class="project-card">
+          <h3>Doubt Tracker</h3>
+          <p>Helps track and resolve questions during QA courses or project workflows.</p>
+          <a href="https://github.com/yourusername/doubt-tracker" target="_blank" class="btn">View Project</a>
+        </article>
+
+        <article class="project-card">
+          <h3>Course Maker</h3>
+          <p>Create and manage online courses with easy-to-use tools and interfaces.</p>
+          <a href="https://github.com/yourusername/course-maker" target="_blank" class="btn">View Project</a>
+        </article>
+
+        <article class="project-card">
+          <h3>Tasks from QA Course</h3>
+          <p>Practice tasks and exercises designed to sharpen QA testing skills.</p>
+          <a href="https://github.com/yourusername/qa-tasks" target="_blank" class="btn">View Project</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>Feel free to reach out via <a href="mailto:petro@example.com">email</a> or connect on <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Petro. All rights reserved.</p>
+  </footer>
 </body>
 </html>
